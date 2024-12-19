@@ -1,0 +1,21 @@
+{
+    "port": "13279",
+    "commands": [
+        {
+            "page":["**"],
+            "link":["*//*.youtube.com/**", "*//*.google.com/**"],
+            "command": {
+                "name":"/your path/google-chrome",
+                "args":["--user-data-dir=/your data path", "--new-window", "--incognito"]
+            }
+        },
+        {
+            "page":["**"],
+            "link":["**"],
+            "command": {
+                "name":"/your path/brave",
+                "args":[]
+            }
+        }
+    ]
+}

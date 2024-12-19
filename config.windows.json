@@ -1,0 +1,21 @@
+{
+    "port": "13279",
+    "commands": [
+        {
+            "page":["**"],
+            "link":["*//*.youtube.com/**", "*//*.google.com/**"],
+            "command": {
+                "name":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                "args":["--user-data-dir=c:\\z\\chrome-users\\en", "--new-window", "--incognito"]
+            }
+        },
+        {
+            "page":["**"],
+            "link":["**"],
+            "command": {
+                "name":"C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+                "args":[]
+            }
+        }
+    ]
+}

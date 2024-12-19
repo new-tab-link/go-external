@@ -1,0 +1,21 @@
+{
+    "port": "13279",
+    "commands": [
+        {
+            "page":["**"],
+            "link":["*//*.youtube.com/**", "*//*.google.com/**"],
+            "command": {
+                "name":"/usr/bin/google-chrome",
+                "args":["--user-data-dir=/home/a/chrome-users", "--new-window", "--incognito"]
+            }
+        },
+        {
+            "page":["**"],
+            "link":["**"],
+            "command": {
+                "name":"/snap/bin/brave",
+                "args":[]
+            }
+        }
+    ]
+}
